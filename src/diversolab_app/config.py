@@ -16,9 +16,7 @@ class _SiteConfig:
     """Site-level configuration for DIVERSO LAB — consumed by the theme."""
 
     SITE_NAME = "DIVERSO LAB"
-    SITE_TAGLINE = (
-        "International computing research — developing technology to transform Andalucía."
-    )
+    SITE_TAGLINE = "International computing research — developing technology to transform Andalucía."
     # No SITE_NAV: the main navigation is composed from the INSTALLED features
     # (each declares its entry via register_nav_item) and tuned in the admin
     # Menus editor. The theme keeps SITE_NAV support only as a zero-feature
@@ -28,19 +26,27 @@ class _SiteConfig:
         {"network": "Web", "href": "https://diversolab.us.es"},
     ]
     SITE_LOGO = "img/diverso-logo.png"
-    SITE_HERO_EYEBROW = "Universidad de Sevilla · ETSII · Research group PRISMA (TIC-276)"
+    SITE_HERO_EYEBROW = (
+        "Universidad de Sevilla · ETSII · Research group PRISMA (TIC-276)"
+    )
     SITE_HERO_ACTIONS = [
         {"label": "Our projects", "href": "/projects"},
         {"label": "Our tools", "href": "/tools", "class": "btn-ghost"},
     ]
     SITE_HIGHLIGHTS_TITLE = "Areas of expertise"
     SITE_HIGHLIGHTS = [
-        {"title": "Software Engineering",
-         "text": "Variability-intensive systems, software product lines and automated analysis."},
-        {"title": "Artificial Intelligence",
-         "text": "AI applied to software engineering and data-intensive systems."},
-        {"title": "Computational Thinking",
-         "text": "Research and teaching on computational thinking."},
+        {
+            "title": "Software Engineering",
+            "text": "Variability-intensive systems, software product lines and automated analysis.",
+        },
+        {
+            "title": "Artificial Intelligence",
+            "text": "AI applied to software engineering and data-intensive systems.",
+        },
+        {
+            "title": "Computational Thinking",
+            "text": "Research and teaching on computational thinking.",
+        },
     ]
     # Collaborating organisations are a real feature now (partners, with logos);
     # no text sponsor list here.
