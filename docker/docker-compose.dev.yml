@@ -14,6 +14,9 @@ services:
     depends_on:
       diversolab_app_db:
         condition: service_healthy
+    environment:
+      - MAIL_HOST=diversolab_app_mailhog
+      - MAIL_PORT=1025
     networks:
       - splent_network
     command: [ "tail", "-f", "/dev/null" ]
@@ -34,6 +37,14 @@ services:
       timeout: 5s
       retries: 30
       start_period: 10s
+    networks:
+      - splent_network
+
+  diversolab_app_mailhog:
+    image: mailhog/mailhog:latest
+    container_name: diversolab_app_mailhog
+    ports:
+      - "8025:8025"
     networks:
       - splent_network
 

@@ -42,6 +42,8 @@ features = [
     "splent-io/splent_feature_settings",
     "splent-io/splent_feature_slider",
     "splent-io/splent_feature_partners",
+    "splent-io/splent_feature_mail",
+    "splent-io/splent_feature_contact",
 ]
 features_dev = [
     "splent-io/splent_feature_admin",
