@@ -35,18 +35,15 @@ class _SiteConfig:
     ]
     SITE_HIGHLIGHTS_TITLE = "Areas of expertise"
     SITE_HIGHLIGHTS = [
-        {"icon": "🧩", "title": "Software Engineering",
+        {"title": "Software Engineering",
          "text": "Variability-intensive systems, software product lines and automated analysis."},
-        {"icon": "🤖", "title": "Artificial Intelligence",
+        {"title": "Artificial Intelligence",
          "text": "AI applied to software engineering and data-intensive systems."},
-        {"icon": "🧠", "title": "Computational Thinking",
+        {"title": "Computational Thinking",
          "text": "Research and teaching on computational thinking."},
     ]
-    SITE_SPONSORS_TITLE = "Funding & partners"
-    SITE_SPONSORS = [
-        "Universidad de Sevilla", "Junta de Andalucía",
-        "Ministerio de Ciencia e Innovación", "ERDF / FEDER", "PRISMA · TIC-276",
-    ]
+    # Collaborating organisations are a real feature now (partners, with logos);
+    # no text sponsor list here.
     SITE_CTA = {
         "title": "Interested in our research?",
         "text": "Reach out — we collaborate on variability, AI and software engineering.",

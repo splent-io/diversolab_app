@@ -10,7 +10,7 @@
       "declared_at": "2026-06-27T22:21:01+00:00",
       "installed_at": "2026-06-27T22:23:57+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:44+00:00"
+      "updated_at": "2026-06-28T16:36:12+00:00"
     },
     "splent_io/splent_feature_team": {
       "namespace": "splent_io",
@@ -21,7 +21,7 @@
       "declared_at": "2026-06-27T22:21:03+00:00",
       "installed_at": "2026-06-27T22:24:00+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:43+00:00"
+      "updated_at": "2026-06-28T16:36:10+00:00"
     },
     "splent_io/splent_feature_projects": {
       "namespace": "splent_io",
@@ -32,7 +32,7 @@
       "declared_at": "2026-06-27T22:21:06+00:00",
       "installed_at": "2026-06-27T22:24:07+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:43+00:00"
+      "updated_at": "2026-06-28T16:36:10+00:00"
     },
     "splent_io/splent_feature_tools": {
       "namespace": "splent_io",
@@ -43,7 +43,7 @@
       "declared_at": "2026-06-27T22:21:07+00:00",
       "installed_at": "2026-06-27T22:24:10+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:43+00:00"
+      "updated_at": "2026-06-28T16:36:10+00:00"
     },
     "splent_io/splent_feature_skin_academic": {
       "namespace": "splent_io",
@@ -54,7 +54,7 @@
       "declared_at": "2026-06-27T22:21:09+00:00",
       "installed_at": "2026-06-27T22:24:13+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:43+00:00"
+      "updated_at": "2026-06-28T16:36:10+00:00"
     },
     "splent_io/splent_feature_public": {
       "namespace": "splent_io",
@@ -65,7 +65,7 @@
       "declared_at": "2026-06-27T22:26:38+00:00",
       "installed_at": "2026-06-27T22:32:32+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:43+00:00"
+      "updated_at": "2026-06-28T16:36:10+00:00"
     },
     "splent_io/splent_feature_media": {
       "namespace": "splent_io",
@@ -76,7 +76,7 @@
       "declared_at": "2026-06-27T23:35:15+00:00",
       "installed_at": "2026-06-27T23:35:23+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:43+00:00"
+      "updated_at": "2026-06-28T16:36:10+00:00"
     },
     "splent_io/splent_feature_redis@v1.5.6": {
       "namespace": "splent_io",
@@ -87,7 +87,7 @@
       "declared_at": "2026-06-28T00:20:03+00:00",
       "installed_at": "2026-06-28T00:20:04+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:43+00:00"
+      "updated_at": "2026-06-28T16:36:10+00:00"
     },
     "splent_io/splent_feature_nginx@v1.1.0": {
       "namespace": "splent_io",
@@ -98,7 +98,7 @@
       "declared_at": "2026-06-28T00:20:19+00:00",
       "installed_at": "2026-06-28T00:20:21+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:44+00:00"
+      "updated_at": "2026-06-28T16:36:11+00:00"
     },
     "splent_io/splent_feature_auth": {
       "namespace": "splent_io",
@@ -109,7 +109,7 @@
       "declared_at": "2026-06-28T00:45:05+00:00",
       "installed_at": "2026-06-28T00:45:05+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:43+00:00"
+      "updated_at": "2026-06-28T16:36:10+00:00"
     },
     "splent_io/splent_feature_admin": {
       "namespace": "splent_io",
@@ -120,7 +120,7 @@
       "declared_at": "2026-06-28T00:47:57+00:00",
       "installed_at": "2026-06-28T00:47:57+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:45+00:00"
+      "updated_at": "2026-06-28T16:36:12+00:00"
     },
     "splent_io/splent_feature_session_redis": {
       "namespace": "splent_io",
@@ -131,7 +131,7 @@
       "declared_at": "2026-06-28T10:11:22+00:00",
       "installed_at": "2026-06-28T10:11:22+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:44+00:00"
+      "updated_at": "2026-06-28T16:36:11+00:00"
     },
     "splent_io/splent_feature_research_projects": {
       "namespace": "splent_io",
@@ -142,7 +142,7 @@
       "declared_at": "2026-06-28T10:40:22+00:00",
       "installed_at": "2026-06-28T10:43:01+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:44+00:00"
+      "updated_at": "2026-06-28T16:36:11+00:00"
     },
     "splent_io/splent_feature_post": {
       "namespace": "splent_io",
@@ -153,7 +153,7 @@
       "declared_at": "2026-06-28T11:42:37+00:00",
       "installed_at": "2026-06-28T11:42:45+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:44+00:00"
+      "updated_at": "2026-06-28T16:36:11+00:00"
     },
     "splent_io/splent_feature_cloudflare": {
       "namespace": "splent_io",
@@ -164,7 +164,7 @@
       "declared_at": "2026-06-28T12:00:25+00:00",
       "installed_at": "2026-06-28T12:05:09+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:44+00:00"
+      "updated_at": "2026-06-28T16:36:11+00:00"
     },
     "splent_io/splent_feature_comments": {
       "namespace": "splent_io",
@@ -175,7 +175,7 @@
       "declared_at": "2026-06-28T12:00:30+00:00",
       "installed_at": "2026-06-28T12:05:13+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:44+00:00"
+      "updated_at": "2026-06-28T16:36:11+00:00"
     },
     "splent_io/splent_feature_settings": {
       "namespace": "splent_io",
@@ -186,7 +186,7 @@
       "declared_at": "2026-06-28T13:05:45+00:00",
       "installed_at": "2026-06-28T13:05:55+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:44+00:00"
+      "updated_at": "2026-06-28T16:36:11+00:00"
     },
     "splent_io/splent_feature_slider": {
       "namespace": "splent_io",
@@ -197,9 +197,20 @@
       "declared_at": "2026-06-28T14:36:17+00:00",
       "installed_at": "2026-06-28T14:36:25+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T14:40:45+00:00"
+      "updated_at": "2026-06-28T16:36:12+00:00"
+    },
+    "splent_io/splent_feature_partners": {
+      "namespace": "splent_io",
+      "name": "splent_feature_partners",
+      "version": null,
+      "mode": "editable",
+      "state": "active",
+      "declared_at": "2026-06-28T16:12:36+00:00",
+      "installed_at": "2026-06-28T16:12:44+00:00",
+      "migrated_at": null,
+      "updated_at": "2026-06-28T16:36:12+00:00"
     }
   },
   "product": "diversolab_app",
-  "updated_at": "2026-06-28T14:40:45+00:00"
+  "updated_at": "2026-06-28T16:36:12+00:00"
 }
