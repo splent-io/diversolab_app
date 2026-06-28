@@ -39,6 +39,7 @@ features = [
     "splent-io/splent_feature_post",
     "splent-io/splent_feature_cloudflare",
     "splent-io/splent_feature_comments",
+    "splent-io/splent_feature_settings",
 ]
 features_dev = [
     "splent-io/splent_feature_admin",
