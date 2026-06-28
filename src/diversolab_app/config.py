@@ -19,11 +19,10 @@ class _SiteConfig:
     SITE_TAGLINE = (
         "International computing research — developing technology to transform Andalucía."
     )
-    SITE_NAV = [
-        {"label": "Projects", "href": "/projects"},
-        {"label": "Tools", "href": "/tools"},
-        {"label": "Team", "href": "/team"},
-    ]
+    # No SITE_NAV: the main navigation is composed from the INSTALLED features
+    # (each declares its entry via register_nav_item) and tuned in the admin
+    # Menus editor. The theme keeps SITE_NAV support only as a zero-feature
+    # fallback, which this product never hits.
     SITE_SOCIAL = [
         {"network": "GitHub", "href": "https://github.com/diverso-lab"},
         {"network": "Web", "href": "https://diversolab.us.es"},
