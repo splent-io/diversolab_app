@@ -37,6 +37,8 @@ features = [
     "splent-io/splent_feature_nginx@v1.1.0",
     "splent-io/splent_feature_research_projects",
     "splent-io/splent_feature_post",
+    "splent-io/splent_feature_cloudflare",
+    "splent-io/splent_feature_comments",
 ]
 features_dev = [
     "splent-io/splent_feature_admin",
