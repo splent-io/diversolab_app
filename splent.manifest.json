@@ -1,83 +1,6 @@
 {
   "schema_version": "1",
   "features": {
-    "splent_io/splent_feature_theme": {
-      "namespace": "splent_io",
-      "name": "splent_feature_theme",
-      "version": null,
-      "mode": "editable",
-      "state": "active",
-      "declared_at": "2026-06-27T22:21:01+00:00",
-      "installed_at": "2026-06-27T22:23:57+00:00",
-      "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:48+00:00"
-    },
-    "splent_io/splent_feature_team": {
-      "namespace": "splent_io",
-      "name": "splent_feature_team",
-      "version": null,
-      "mode": "editable",
-      "state": "active",
-      "declared_at": "2026-06-27T22:21:03+00:00",
-      "installed_at": "2026-06-27T22:24:00+00:00",
-      "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:46+00:00"
-    },
-    "splent_io/splent_feature_projects": {
-      "namespace": "splent_io",
-      "name": "splent_feature_projects",
-      "version": null,
-      "mode": "editable",
-      "state": "active",
-      "declared_at": "2026-06-27T22:21:06+00:00",
-      "installed_at": "2026-06-27T22:24:07+00:00",
-      "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:45+00:00"
-    },
-    "splent_io/splent_feature_tools": {
-      "namespace": "splent_io",
-      "name": "splent_feature_tools",
-      "version": null,
-      "mode": "editable",
-      "state": "active",
-      "declared_at": "2026-06-27T22:21:07+00:00",
-      "installed_at": "2026-06-27T22:24:10+00:00",
-      "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:46+00:00"
-    },
-    "splent_io/splent_feature_skin_academic": {
-      "namespace": "splent_io",
-      "name": "splent_feature_skin_academic",
-      "version": null,
-      "mode": "editable",
-      "state": "active",
-      "declared_at": "2026-06-27T22:21:09+00:00",
-      "installed_at": "2026-06-27T22:24:13+00:00",
-      "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:46+00:00"
-    },
-    "splent_io/splent_feature_public": {
-      "namespace": "splent_io",
-      "name": "splent_feature_public",
-      "version": null,
-      "mode": "editable",
-      "state": "active",
-      "declared_at": "2026-06-27T22:26:38+00:00",
-      "installed_at": "2026-06-27T22:32:32+00:00",
-      "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:46+00:00"
-    },
-    "splent_io/splent_feature_media": {
-      "namespace": "splent_io",
-      "name": "splent_feature_media",
-      "version": null,
-      "mode": "editable",
-      "state": "active",
-      "declared_at": "2026-06-27T23:35:15+00:00",
-      "installed_at": "2026-06-27T23:35:23+00:00",
-      "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:46+00:00"
-    },
     "splent_io/splent_feature_redis@v1.5.6": {
       "namespace": "splent_io",
       "name": "splent_feature_redis",
@@ -87,7 +10,7 @@
       "declared_at": "2026-06-28T00:20:03+00:00",
       "installed_at": "2026-06-28T00:20:04+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:47+00:00"
+      "updated_at": "2026-07-29T17:00:52+00:00"
     },
     "splent_io/splent_feature_nginx@v1.1.0": {
       "namespace": "splent_io",
@@ -98,141 +21,218 @@
       "declared_at": "2026-06-28T00:20:19+00:00",
       "installed_at": "2026-06-28T00:20:21+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:47+00:00"
+      "updated_at": "2026-07-29T17:00:52+00:00"
     },
-    "splent_io/splent_feature_auth": {
+    "splent_io/splent_feature_theme@v0.2.1": {
+      "namespace": "splent_io",
+      "name": "splent_feature_theme",
+      "version": "v0.2.1",
+      "mode": "pinned",
+      "state": "active",
+      "declared_at": "2026-07-29T16:55:17+00:00",
+      "installed_at": "2026-07-29T17:00:54+00:00",
+      "migrated_at": null,
+      "updated_at": "2026-07-29T17:00:54+00:00"
+    },
+    "splent_io/splent_feature_team@v0.2.1": {
+      "namespace": "splent_io",
+      "name": "splent_feature_team",
+      "version": "v0.2.1",
+      "mode": "pinned",
+      "state": "active",
+      "declared_at": "2026-07-29T16:55:22+00:00",
+      "installed_at": "2026-07-29T17:00:53+00:00",
+      "migrated_at": null,
+      "updated_at": "2026-07-29T17:00:53+00:00"
+    },
+    "splent_io/splent_feature_projects@v0.2.2": {
+      "namespace": "splent_io",
+      "name": "splent_feature_projects",
+      "version": "v0.2.2",
+      "mode": "pinned",
+      "state": "active",
+      "declared_at": "2026-07-29T16:55:27+00:00",
+      "installed_at": "2026-07-29T17:00:52+00:00",
+      "migrated_at": null,
+      "updated_at": "2026-07-29T17:00:52+00:00"
+    },
+    "splent_io/splent_feature_tools@v0.2.1": {
+      "namespace": "splent_io",
+      "name": "splent_feature_tools",
+      "version": "v0.2.1",
+      "mode": "pinned",
+      "state": "active",
+      "declared_at": "2026-07-29T16:55:32+00:00",
+      "installed_at": "2026-07-29T17:00:52+00:00",
+      "migrated_at": null,
+      "updated_at": "2026-07-29T17:00:52+00:00"
+    },
+    "splent_io/splent_feature_skin_academic@v0.2.1": {
+      "namespace": "splent_io",
+      "name": "splent_feature_skin_academic",
+      "version": "v0.2.1",
+      "mode": "pinned",
+      "state": "active",
+      "declared_at": "2026-07-29T16:55:38+00:00",
+      "installed_at": "2026-07-29T17:00:52+00:00",
+      "migrated_at": null,
+      "updated_at": "2026-07-29T17:00:52+00:00"
+    },
+    "splent_io/splent_feature_auth@v1.6.2": {
       "namespace": "splent_io",
       "name": "splent_feature_auth",
-      "version": null,
-      "mode": "editable",
+      "version": "v1.6.2",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T00:45:05+00:00",
-      "installed_at": "2026-06-28T00:45:05+00:00",
+      "declared_at": "2026-07-29T16:55:43+00:00",
+      "installed_at": "2026-07-29T17:00:53+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:46+00:00"
+      "updated_at": "2026-07-29T17:00:53+00:00"
     },
-    "splent_io/splent_feature_admin": {
+    "splent_io/splent_feature_public@v1.7.2": {
       "namespace": "splent_io",
-      "name": "splent_feature_admin",
-      "version": null,
-      "mode": "editable",
+      "name": "splent_feature_public",
+      "version": "v1.7.2",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T00:47:57+00:00",
-      "installed_at": "2026-06-28T00:47:57+00:00",
+      "declared_at": "2026-07-29T16:55:48+00:00",
+      "installed_at": "2026-07-29T17:00:53+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:49+00:00"
+      "updated_at": "2026-07-29T17:00:53+00:00"
     },
-    "splent_io/splent_feature_session_redis": {
+    "splent_io/splent_feature_media@v0.4.2": {
+      "namespace": "splent_io",
+      "name": "splent_feature_media",
+      "version": "v0.4.2",
+      "mode": "pinned",
+      "state": "active",
+      "declared_at": "2026-07-29T16:55:53+00:00",
+      "installed_at": "2026-07-29T17:00:53+00:00",
+      "migrated_at": null,
+      "updated_at": "2026-07-29T17:00:53+00:00"
+    },
+    "splent_io/splent_feature_session_redis@v1.1.1": {
       "namespace": "splent_io",
       "name": "splent_feature_session_redis",
-      "version": null,
-      "mode": "editable",
+      "version": "v1.1.1",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T10:11:22+00:00",
-      "installed_at": "2026-06-28T10:11:22+00:00",
+      "declared_at": "2026-07-29T16:55:59+00:00",
+      "installed_at": "2026-07-29T17:00:53+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:47+00:00"
+      "updated_at": "2026-07-29T17:00:53+00:00"
     },
-    "splent_io/splent_feature_research_projects": {
+    "splent_io/splent_feature_research_projects@v0.2.1": {
       "namespace": "splent_io",
       "name": "splent_feature_research_projects",
-      "version": null,
-      "mode": "editable",
+      "version": "v0.2.1",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T10:40:22+00:00",
-      "installed_at": "2026-06-28T10:43:01+00:00",
+      "declared_at": "2026-07-29T16:56:06+00:00",
+      "installed_at": "2026-07-29T17:00:53+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:47+00:00"
+      "updated_at": "2026-07-29T17:00:53+00:00"
     },
-    "splent_io/splent_feature_post": {
+    "splent_io/splent_feature_post@v0.2.1": {
       "namespace": "splent_io",
       "name": "splent_feature_post",
-      "version": null,
-      "mode": "editable",
+      "version": "v0.2.1",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T11:42:37+00:00",
-      "installed_at": "2026-06-28T11:42:45+00:00",
+      "declared_at": "2026-07-29T16:56:13+00:00",
+      "installed_at": "2026-07-29T17:00:53+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:47+00:00"
+      "updated_at": "2026-07-29T17:00:53+00:00"
     },
-    "splent_io/splent_feature_cloudflare": {
+    "splent_io/splent_feature_cloudflare@v0.1.1": {
       "namespace": "splent_io",
       "name": "splent_feature_cloudflare",
-      "version": null,
-      "mode": "editable",
+      "version": "v0.1.1",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T12:00:25+00:00",
-      "installed_at": "2026-06-28T12:05:09+00:00",
+      "declared_at": "2026-07-29T16:56:20+00:00",
+      "installed_at": "2026-07-29T17:00:54+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:47+00:00"
+      "updated_at": "2026-07-29T17:00:54+00:00"
     },
-    "splent_io/splent_feature_comments": {
+    "splent_io/splent_feature_comments@v0.1.1": {
       "namespace": "splent_io",
       "name": "splent_feature_comments",
-      "version": null,
-      "mode": "editable",
+      "version": "v0.1.1",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T12:00:30+00:00",
-      "installed_at": "2026-06-28T12:05:13+00:00",
+      "declared_at": "2026-07-29T16:56:25+00:00",
+      "installed_at": "2026-07-29T17:00:54+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:48+00:00"
+      "updated_at": "2026-07-29T17:00:54+00:00"
     },
-    "splent_io/splent_feature_settings": {
+    "splent_io/splent_feature_settings@v0.2.1": {
       "namespace": "splent_io",
       "name": "splent_feature_settings",
-      "version": null,
-      "mode": "editable",
+      "version": "v0.2.1",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T13:05:45+00:00",
-      "installed_at": "2026-06-28T13:05:55+00:00",
+      "declared_at": "2026-07-29T16:56:31+00:00",
+      "installed_at": "2026-07-29T17:00:54+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:48+00:00"
+      "updated_at": "2026-07-29T17:00:54+00:00"
     },
-    "splent_io/splent_feature_slider": {
+    "splent_io/splent_feature_slider@v0.2.1": {
       "namespace": "splent_io",
       "name": "splent_feature_slider",
-      "version": null,
-      "mode": "editable",
+      "version": "v0.2.1",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T14:36:17+00:00",
-      "installed_at": "2026-06-28T14:36:25+00:00",
+      "declared_at": "2026-07-29T16:56:36+00:00",
+      "installed_at": "2026-07-29T17:00:54+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:48+00:00"
+      "updated_at": "2026-07-29T17:00:54+00:00"
     },
-    "splent_io/splent_feature_partners": {
+    "splent_io/splent_feature_partners@v0.2.1": {
       "namespace": "splent_io",
       "name": "splent_feature_partners",
-      "version": null,
-      "mode": "editable",
+      "version": "v0.2.1",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T16:12:36+00:00",
-      "installed_at": "2026-06-28T16:12:44+00:00",
+      "declared_at": "2026-07-29T16:56:41+00:00",
+      "installed_at": "2026-07-29T17:00:54+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:48+00:00"
+      "updated_at": "2026-07-29T17:00:54+00:00"
     },
-    "splent_io/splent_feature_mail": {
+    "splent_io/splent_feature_mail@v1.4.1": {
       "namespace": "splent_io",
       "name": "splent_feature_mail",
-      "version": null,
-      "mode": "editable",
+      "version": "v1.4.1",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T17:09:37+00:00",
-      "installed_at": "2026-06-28T17:09:45+00:00",
+      "declared_at": "2026-07-29T16:56:46+00:00",
+      "installed_at": "2026-07-29T17:00:55+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:48+00:00"
+      "updated_at": "2026-07-29T17:00:55+00:00"
     },
-    "splent_io/splent_feature_contact": {
+    "splent_io/splent_feature_contact@v0.1.1": {
       "namespace": "splent_io",
       "name": "splent_feature_contact",
-      "version": null,
-      "mode": "editable",
+      "version": "v0.1.1",
+      "mode": "pinned",
       "state": "active",
-      "declared_at": "2026-06-28T17:09:42+00:00",
-      "installed_at": "2026-06-28T17:09:46+00:00",
+      "declared_at": "2026-07-29T16:56:52+00:00",
+      "installed_at": "2026-07-29T17:00:55+00:00",
       "migrated_at": null,
-      "updated_at": "2026-06-28T19:17:49+00:00"
+      "updated_at": "2026-07-29T17:00:55+00:00"
+    },
+    "splent_io/splent_feature_admin@v1.1.1": {
+      "namespace": "splent_io",
+      "name": "splent_feature_admin",
+      "version": "v1.1.1",
+      "mode": "pinned",
+      "state": "active",
+      "declared_at": "2026-07-29T16:57:03+00:00",
+      "installed_at": "2026-07-29T17:00:55+00:00",
+      "migrated_at": null,
+      "updated_at": "2026-07-29T17:00:55+00:00"
     }
   },
   "product": "diversolab_app",
-  "updated_at": "2026-06-28T19:17:49+00:00"
+  "updated_at": "2026-07-29T17:00:55+00:00"
 }
