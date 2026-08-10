@@ -44,10 +44,9 @@ features = [
     "splent_io/splent_feature_partners@v0.2.1",
     "splent_io/splent_feature_mail@v1.4.1",
     "splent_io/splent_feature_contact@v0.1.1",
-]
-features_dev = [
     "splent_io/splent_feature_admin@v1.1.1",
 ]
+features_dev = []
 features_prod = []
 spl = "cms_spl"
 
