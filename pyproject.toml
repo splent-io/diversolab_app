@@ -22,29 +22,32 @@ core = [
 ]
 
 [tool.splent]
-cli_version = "1.11.0"
+cli_version = "1.20.1"
 features = [
-    "splent-io/splent_feature_redis@v1.5.6",
-    "splent-io/splent_feature_nginx@v1.1.0",
-    "splent_io/splent_feature_theme@v0.2.1",
-    "splent_io/splent_feature_team@v0.2.1",
-    "splent_io/splent_feature_projects@v0.2.2",
-    "splent_io/splent_feature_tools@v0.2.1",
-    "splent_io/splent_feature_skin_academic@v0.2.1",
-    "splent_io/splent_feature_auth@v1.6.2",
-    "splent_io/splent_feature_public@v1.7.2",
-    "splent_io/splent_feature_media@v0.4.2",
-    "splent_io/splent_feature_session_redis@v1.1.1",
-    "splent_io/splent_feature_research_projects@v0.2.1",
-    "splent_io/splent_feature_post@v0.2.1",
-    "splent_io/splent_feature_cloudflare@v0.1.1",
-    "splent_io/splent_feature_comments@v0.1.1",
-    "splent_io/splent_feature_settings@v0.2.1",
-    "splent_io/splent_feature_slider@v0.2.1",
-    "splent_io/splent_feature_partners@v0.2.1",
-    "splent_io/splent_feature_mail@v1.4.1",
-    "splent_io/splent_feature_contact@v0.1.1",
-    "splent_io/splent_feature_admin@v1.1.1",
+    "splent_io/splent_feature_theme@v0.7.0",
+    "splent_io/splent_feature_auth@v1.10.4",
+    "splent_io/splent_feature_settings@v0.3.1",
+    "splent_io/splent_feature_admin@v1.4.0",
+    "splent_io/splent_feature_media@v0.6.0",
+    "splent_io/splent_feature_partners@v0.3.0",
+    "splent_io/splent_feature_projects@v0.2.3",
+    "splent_io/splent_feature_public@v1.7.3",
+    "splent_io/splent_feature_session_redis@v1.1.2",
+    "splent_io/splent_feature_cloudflare@v0.1.2",
+    "splent_io/splent_feature_mail@v1.4.2",
+    "splent_io/splent_feature_nginx@v1.2.0",
+    "splent_io/splent_feature_post@v0.3.0",
+    "splent_io/splent_feature_about@v0.1.0",
+    "splent_io/splent_feature_legal@v0.1.0",
+    "splent_io/splent_feature_wordpress_import@v0.1.0",
+    "splent_io/splent_feature_comments@v0.1.2",
+    "splent_io/splent_feature_contact@v0.1.2",
+    "splent_io/splent_feature_slider@v0.3.0",
+    "splent_io/splent_feature_team@v0.3.0",
+    "splent_io/splent_feature_skin_academic@v0.2.2",
+    "splent_io/splent_feature_tools@v0.3.0",
+    "splent_io/splent_feature_research_projects@v0.3.0",
+    "splent_io/splent_feature_redis@v1.5.7",
 ]
 features_dev = []
 features_prod = []
@@ -70,6 +73,10 @@ doi = "10.5281/zenodo.21610307"
 concept_doi = ""
 version = ""
 file = "cms_spl.uvl"
+
+[tool.splent.config]
+POST_NAV_LABEL = "News"
+WP_IMPORT_BASE_URL = "https://diversolab.us.es"
 
 [tool.setuptools.package-dir]
 "" = "src"

@@ -65,3 +65,6 @@ splent.manifest.json
 # must deploy with git and docker alone, no CLI installed. product:build
 # regenerates both; when a rebuild changes them, commit the diff.
 !.env.deploy.example
+
+# Flask instance dir is runtime data (protected uploads land here in dev)
+src/instance/
