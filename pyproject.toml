@@ -22,12 +22,11 @@ core = [
 ]
 
 [tool.splent]
-cli_version = "1.20.1"
+cli_version = "1.21.1"
 features = [
     "splent_io/splent_feature_auth@v1.10.4",
     "splent_io/splent_feature_settings@v0.3.1",
     "splent_io/splent_feature_admin@v1.4.0",
-    "splent_io/splent_feature_media@v0.6.0",
     "splent_io/splent_feature_projects@v0.2.3",
     "splent_io/splent_feature_public@v1.7.3",
     "splent_io/splent_feature_session_redis@v1.1.2",
@@ -43,11 +42,12 @@ features = [
     "splent_io/splent_feature_theme@v0.7.1",
     "splent_io/splent_feature_post@v0.4.0",
     "splent_io/splent_feature_partners@v0.3.1",
-    "splent_io/splent_feature_about@v0.1.1",
     "splent_io/splent_feature_legal@v0.1.1",
     "splent_io/splent_feature_team@v0.3.1",
     "splent_io/splent_feature_tools@v0.3.1",
     "splent_io/splent_feature_research_projects@v0.3.1",
+    "splent_io/splent_feature_media@v0.7.0",
+    "splent_io/splent_feature_about@v0.2.1",
 ]
 features_dev = []
 features_prod = []
@@ -67,13 +67,9 @@ hooks = [
     "layout.scripts",
 ]
 
-# Where the SPL model itself comes from. The name above is not enough
-# to download anything, so the DOI travels with the product and any
-# clone of this repository can resolve the model from UVLHub alone.
 [tool.splent.spl_model]
 mirror = "uvlhub.io"
-doi = "10.5281/zenodo.21915219"
-# Same line, every version. Used to report that a newer model exists.
+doi = "10.5281/zenodo.21916291"
 concept_doi = ""
 version = ""
 file = "cms_spl.uvl"
