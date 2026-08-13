@@ -27,7 +27,6 @@ features = [
     "splent_io/splent_feature_auth@v1.10.4",
     "splent_io/splent_feature_settings@v0.3.1",
     "splent_io/splent_feature_admin@v1.4.0",
-    "splent_io/splent_feature_projects@v0.2.3",
     "splent_io/splent_feature_public@v1.7.3",
     "splent_io/splent_feature_session_redis@v1.1.2",
     "splent_io/splent_feature_cloudflare@v0.1.2",
@@ -42,12 +41,13 @@ features = [
     "splent_io/splent_feature_partners@v0.3.1",
     "splent_io/splent_feature_legal@v0.1.1",
     "splent_io/splent_feature_tools@v0.3.1",
-    "splent_io/splent_feature_research_projects@v0.3.1",
     "splent_io/splent_feature_media@v0.7.0",
-    "splent_io/splent_feature_about@v0.2.1",
     "splent_io/splent_feature_theme@v0.8.0",
     "splent_io/splent_feature_post@v0.4.2",
     "splent_io/splent_feature_team@v0.3.2",
+    "splent_io/splent_feature_projects@v0.2.4",
+    "splent_io/splent_feature_research_projects@v0.3.2",
+    "splent_io/splent_feature_about@v0.2.2",
 ]
 features_dev = []
 features_prod = []

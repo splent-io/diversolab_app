@@ -183,7 +183,9 @@ def _who_we_are_images_html():
         url = _seed_image(filename, title=alt)
         if url:
             tags.append(f'<img src="{url}" alt="{alt}">')
-    return "\n".join(tags)
+    if not tags:
+        return ""
+    return '<div class="about-gallery">\n' + "\n".join(tags) + "\n</div>"
 
 
 class AboutSeeder(BaseSeeder):
