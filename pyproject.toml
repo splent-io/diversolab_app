@@ -75,6 +75,7 @@ version = ""
 file = "cms_spl.uvl"
 
 [tool.splent.config]
+AUTH_LOGIN_LAYOUT = "public_base.html"
 POST_NAV_LABEL = "News"
 POST_INDEX_PATH = "/news"
 SITE_BRAND_MODE = "logo"
