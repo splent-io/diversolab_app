@@ -28,8 +28,6 @@ features = [
     "splent_io/splent_feature_admin@v1.4.0",
     "splent_io/splent_feature_public@v1.7.3",
     "splent_io/splent_feature_session_redis@v1.1.2",
-    "splent_io/splent_feature_cloudflare@v0.1.2",
-    "splent_io/splent_feature_mail@v1.4.2",
     "splent_io/splent_feature_nginx@v1.2.0",
     "splent_io/splent_feature_wordpress_import@v0.1.0",
     "splent_io/splent_feature_slider@v0.3.0",
@@ -49,6 +47,8 @@ features = [
     "splent_io/splent_feature_auth@v1.12.0",
     "splent_io/splent_feature_comments@v0.2.0",
     "splent_io/splent_feature_team@v0.3.4",
+    "splent_io/splent_feature_cloudflare@v0.1.4",
+    "splent_io/splent_feature_mail@v1.4.3",
 ]
 features_dev = []
 features_prod = []
