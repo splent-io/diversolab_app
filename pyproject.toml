@@ -44,10 +44,11 @@ features = [
     "splent_io/splent_feature_projects@v0.2.4",
     "splent_io/splent_feature_research_projects@v0.3.2",
     "splent_io/splent_feature_about@v0.2.2",
-    "splent_io/splent_feature_contact@v0.1.3",
     "splent_io/splent_feature_skin_academic@v0.3.0",
     "splent_io/splent_feature_auth@v1.11.0",
     "splent_io/splent_feature_theme@v0.10.0",
+    "splent_io/splent_feature_contact@v0.2.0",
+    "splent_io/splent_feature_map@v0.1.0",
 ]
 features_dev = []
 features_prod = []
@@ -67,9 +68,13 @@ hooks = [
     "layout.scripts",
 ]
 
+# Where the SPL model itself comes from. The name above is not enough
+# to download anything, so the DOI travels with the product and any
+# clone of this repository can resolve the model from UVLHub alone.
 [tool.splent.spl_model]
 mirror = "uvlhub.io"
-doi = "10.5281/zenodo.21916291"
+doi = "10.5281/zenodo.21923420"
+# Same line, every version. Used to report that a newer model exists.
 concept_doi = ""
 version = ""
 file = "cms_spl.uvl"
@@ -78,6 +83,8 @@ file = "cms_spl.uvl"
 AUTH_LOGIN_LAYOUT = "public_base.html"
 AUTH_NAV_LOGIN = false
 AUTH_FOOTER_LOGIN = true
+MAP_QUERY = "Escuela Técnica Superior de Ingeniería Informática, Av. de la Reina Mercedes, s/n, 41012 Sevilla"
+MAP_ADDRESS = "Escuela Técnica Superior de Ingeniería Informática. Av. Reina Mercedes s/n, 41012 Sevilla"
 POST_NAV_LABEL = "News"
 POST_INDEX_PATH = "/news"
 SITE_BRAND_MODE = "logo"
