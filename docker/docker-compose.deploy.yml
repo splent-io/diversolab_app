@@ -5,7 +5,11 @@ services:
     env_file:
     - ./.env.deploy
     ports:
-    - 5125:5000
+    - ${SPLENT_WEB_BIND_HOST:-0.0.0.0}:5125:5000
+    volumes:
+    - diversolab_app_web_deploy_uploads:/workspace/diversolab_app/src/diversolab_app/static/uploads
+    - diversolab_app_web_deploy_protected_uploads:${PROTECTED_UPLOADS_DIR:-/workspace/diversolab_app/protected_uploads}
+    - diversolab_app_web_deploy_archive:${ARCHIVE_DIR:-/workspace/diversolab_app/archive}
     depends_on:
       diversolab_app_db_deploy:
         condition: service_healthy
@@ -22,7 +26,7 @@ services:
     - ./.env.deploy
     command: --default-authentication-plugin=mysql_native_password
     ports:
-    - 33185:3306
+    - ${SPLENT_DB_BIND_HOST:-0.0.0.0}:33185:3306
     volumes:
     - diversolab_app_db_deploy_data:/var/lib/mysql
     healthcheck:
@@ -47,7 +51,7 @@ services:
     volumes:
     - letsencrypt:/etc/letsencrypt:ro
     - certbot_webroot:/var/www/certbot:ro
-    - /Users/davidromeroorganvidez/Desktop/splent_workspace/diversolab_app/docker/features/splent_feature_nginx/nginx/locations:/etc/nginx/conf.d/locations:ro
+    - ${SPLENT_HOST_DOCKER_DIR:-.}/features/splent_feature_nginx/nginx/locations:/etc/nginx/conf.d/locations:ro
     environment:
     - NGINX_UPSTREAM_HOST=${NGINX_UPSTREAM_HOST}
     - NGINX_UPSTREAM_PORT=${NGINX_UPSTREAM_PORT}
@@ -64,6 +68,9 @@ services:
     - splent_network
 volumes:
   diversolab_app_db_deploy_data: null
+  diversolab_app_web_deploy_uploads: null
+  diversolab_app_web_deploy_protected_uploads: null
+  diversolab_app_web_deploy_archive: null
   letsencrypt: null
   certbot_webroot: null
 networks:

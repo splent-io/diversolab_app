@@ -48,8 +48,8 @@ features = [
     "splent_io/splent_feature_comments@v0.2.0",
     "splent_io/splent_feature_team@v0.3.4",
     "splent_io/splent_feature_mail@v1.4.3",
-    "splent_io/splent_feature_careers",
     "splent_io/splent_feature_cloudflare@v0.1.5",
+    "splent_io/splent_feature_careers@v0.1.0",
 ]
 features_dev = []
 features_prod = []
